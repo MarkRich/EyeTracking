@@ -6,6 +6,21 @@ the littany of other best-practices that i've violated in this file.
 
 This is more just to serve as proof that I can learn to work with other peoples libraries pretty quickly (ive only used opencv 
 for a few weeks)
+
+Currently main just takes a video file and compare 3 methods for finding 3 triangle points
+(a triangle is placed on subjects heads) and their pupils. It also writes the results of one of the methods to a blank picture 
+as a demo
+=========================================================================================================
+DEMO CAN BE VIEWED HERE: http://youtu.be/cxxRSBMhjkA
+Sorry that I cannot show the face to match, nasa will not let me share their data.
+Essentially what is happening is its a video of a guy with a triangle on his head. He is being shaken by the chair
+he is sitting on and told to look at stimulus as it appears.
+=========================================================================================================
+the 3 connected points are points on the triangle, the two red dots are the pupils. Demo can currently be processed in real time, but its not here.
+
+Enjoy
+
+-Mark Rich
 */
 #include "StdAfx.h"
 #include "afx.h"
